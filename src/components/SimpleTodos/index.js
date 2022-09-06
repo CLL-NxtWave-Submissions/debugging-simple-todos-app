@@ -41,7 +41,7 @@ const initialTodosList = [
 
 class SimpleTodos extends Component {
   state : {
-    todosList= initialTodosList,
+    todosList: initialTodosList,
   }
 
   const deleteTodo = id => {
