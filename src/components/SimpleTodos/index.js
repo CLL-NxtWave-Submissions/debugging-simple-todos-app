@@ -1,4 +1,4 @@
-import {component} from 'react'
+import {Component} from 'react'
 
 import TodoItem from '../TodoItem'
 
@@ -40,8 +40,8 @@ const initialTodosList = [
 ]
 
 class SimpleTodos extends Component {
-  state : {
-    todosList: initialTodosList,
+  state = {
+    todosList : initialTodosList,
   }
 
   const deleteTodo = id => {
