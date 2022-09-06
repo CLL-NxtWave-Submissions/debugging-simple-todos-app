@@ -41,10 +41,10 @@ const initialTodosList = [
 
 class SimpleTodos extends Component {
   state = {
-    todosList : initialTodosList,
+    todosList: initialTodosList,
   }
 
-  const deleteTodo = id => {
+  deleteTodo = id => {
     const {todosList} = this.state
     const updatedTodosList = todosList.filter(eachTodo => eachTodo.id !== id)
 
